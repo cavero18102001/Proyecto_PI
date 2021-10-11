@@ -1,0 +1,10 @@
+tablas: 
+mensajes = [id, consulta, hora_consulta, respuesta, hora_respuesta, estado]
+
+
+
+escrito
+
+el usuario escribe el mensaje y envia
+guarda consulta y hora de consulta 
+y despues que el modelo arroja una respuesta se guarda la respuesta

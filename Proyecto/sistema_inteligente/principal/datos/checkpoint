@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Usuario\\Documents\\Proyecto_PI\\Proyecto\\sistema_inteligente\\principal\\datos/modelo.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\Usuario\\Documents\\Proyecto_PI\\Proyecto\\sistema_inteligente\\principal\\datos/modelo.tflearn"

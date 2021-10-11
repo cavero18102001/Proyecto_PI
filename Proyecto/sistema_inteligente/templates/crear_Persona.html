@@ -1,0 +1,9 @@
+{% extends 'index12.html' %} {% block titulo %}Formulario de Contacto{% endblock titulo %} {% block cuerpo %}
+
+<form method="post">
+    {% csrf_token %}
+    <!-- seuridad de los middlewares -->
+    {{form.as_p}}
+    <button type="submit">CREAR</button>
+</form>
+{% endblock cuerpo %}

@@ -1,0 +1,54 @@
+{% extends 'index.html' %} {% block cuerpo %} {% load static %}
+<div class="section" style="height: 80vh">
+    <div class="row">
+        <div class="col s5">
+            <div class="card">
+                <div class="collection">
+                    <img width="590" height="580" src="{% static 'imagenes/bot.jpg' %} ">
+                </div>
+            </div>
+        </div>
+        <div class="col s7 borders">
+            <div class="card ">
+                <div id="board" class="section grey lighten-3" style="height: 68vh; padding: 5px; overflow-y: scroll">
+                    {% block messages %} {% endblock messages %}
+                </div>
+                <form id="chat-box" class="form-group " method="post">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col s11">
+                            <div class="input-field">
+                                <input name="message" id="message" type="text" placeholder="Ingresa tu mensaje..">
+                            </div>
+                        </div>
+                        <div class="col s1" style="line-height: 80px">
+                            <button type='submit' class="btn btn-floating blue lighten-2 waves-effect waves-light"><i
+                                    class="material-icons">send</i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).on('submit', '#chat-box', function(e) {
+        console.log($('#message').val())
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: '/enviar/{{ idConsulta}}/',
+            data: {
+                mensaje: $('#message').val(),
+                csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val(),
+            },
+            success: function(data) {
+                //alert(data)
+            },
+
+        });
+        document.getElementById('message').value = ''
+    });
+</script>
+{% endblock cuerpo %}

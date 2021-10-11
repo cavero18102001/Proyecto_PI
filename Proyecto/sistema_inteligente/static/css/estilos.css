@@ -1,0 +1,26 @@
+.logo_muni {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #00a0e4;
+}
+
+.logo_muni a img {
+    width: 80px;
+    height: 80px;
+}
+
+.logo_muni h2 {
+    margin: auto;
+    font-size: calc(1rem + 2vmin + 1vmax);
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+    filter: drop-shadow(0 0 1px #00a0e4) drop-shadow(1px 1px 0 #00a0e4) drop-shadow(-1px 1px 0 #00a0e4) drop-shadow(1px -1px 0 #00a0e4) drop-shadow(-1px -1px 0 #00a0e4);
+}
+
+.borders {
+    border: 2px solid #413e3d;
+    border-radius: 20px;
+}

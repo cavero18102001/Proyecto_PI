@@ -1,0 +1,21 @@
+activate: para activar el entorno virtual
+pip freeze: ver todas las librerias intaladas en nuestro entorno virtual
+django-admin startproject "nombre": crear un proyecto con django
+django-admin startapp "nombre de la aplicacion o modulo": crear una aplicacion
+python manage.py makemigrations: crear un archivo para migrar ala base de datos
+python manage.py migrate: crea las migraciones
+python manage.py createsuperuser: crear un superusario
+python manage.py runserver: levantar el servidor localmente
+
+python manage.py migrate AppName zero: eliminar modelos de la base de datos
+
+
+pip install tflearn
+pip install nltk
+pip install pipwin
+
+pipwin install pyaudio
+pip install SpeechRecognition
+
+pip install gtts
+pip install playsound

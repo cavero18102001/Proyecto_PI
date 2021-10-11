@@ -1,0 +1,31 @@
+<!DOCTYPE html> {% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/estilos.css' %}" media="screen,projection" />
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/chat.js' %}"></script>
+    <title>Asistente Virtual</title>
+</head>
+
+<body>
+    <div class="logo_muni">
+        <a href="/" class="left"><img src="{% static 'imagenes/logo.jpg' %} "></a>
+        <h2>MUNICIPALIDAD DISTRITAL DE VICTOR LARCO HERRERA</h2>
+    </div>
+    {% block cuerpo %} {% endblock cuerpo %}
+</body>
+
+</html>

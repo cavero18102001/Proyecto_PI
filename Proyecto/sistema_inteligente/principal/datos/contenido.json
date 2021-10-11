@@ -1,0 +1,222 @@
+{
+    "contenido": [{
+            "tag": "saludo",
+            "patrones": ["hola", "un saludo", "hello"],
+            "respuestas": ["Hola que tal!", "¿Cómo te va?", "un gusto de verte"]
+        },
+        {
+            "tag": "despedida",
+            "patrones": ["adios", "hasta la proxima", "nos vemos"],
+            "respuestas": ["cuidate", "nos vemos pronto", "te estaré esperando"]
+        },
+        {
+            "tag": "ubicacion",
+            "patrones": ["donde queda ", "cual es la direccion", "en donde esta ubicado",
+                "ubicacion en google maps de la municipalidad"
+            ],
+            "respuestas": ["La Municipalidad queda en Independencia 210", "Puedes ver su ubicación aquí https://goo.gl/maps/a5ZDzs1Qhb8LQAEj8"]
+        },
+        {
+            "tag": "conocimiento",
+            "patrones": ["¿Quien eres?", "¿Que haces?"],
+            "respuestas": ["Soy Victor el asistente inteligente de la municipalidad de Victor Larco"]
+        },
+        {
+            "tag": "nombre",
+            "patrones": ["¿Como te llamas?", "¿Cual es tu nombre?", "Tu nombre es?"],
+            "respuestas": ["Mi nombre es Victor", "Me llamo Victor, un gusto", "Soy Victor"]
+        },
+        {
+            "tag": "funciones",
+            "patrones": ["que puedes hacer", "en que cosas puedes ayudarme", "en que temas me puedes guiar"],
+            "respuestas": ["Te puedo ayudar en todos los temas de la Gerencia de Administración Triburaria", "En todos tus pagos de tributos",
+                "Te puedo ayudar en todos tus dudas con respecto a la Gerencia de Administración Tributaria"
+            ]
+        },
+        {
+            "tag": "impuesto predial",
+            "patrones": ["requisitos para inafectación del impuesto predial", "que necesito para sacar la inafectación del impuesto predial"],
+            "respuestas": ["1. Copian del DNI <br> 2. Titulo de Propiedad <br>  Minuta de Constitución <br> 3. Constancia de registro de entidades inafectación <br> 4. Formulario correctamente llenado <br> 5. Pago de Derecho"]
+        },
+        {
+            "tag": "pago impuesto predial",
+            "patrones": ["cuanto cuesta el derecho para inafectacion del impuesto predial", "de que monto es el derecho a tramite de inafectacion del impuesto predial", "derecho a tramite inafectación de impuesto predial"],
+            "respuestas": ["Cuesta S/. 31.30 ", "El derecho de tramite es de S/. 31,30"]
+        },
+        {
+            "tag": "incio de impuesto predial",
+            "patrones": ["en donde tramito la inafectacion del impuesto predial", "a donde voy para realizar la inafectacion del impuesto predial", "en que lugar entrego mis documentos para la inafectacion de impuesto predial"],
+            "respuestas": ["En la Secretaría General Trámite Documentario"]
+        },
+        {
+            "tag": "formulario",
+            "patrones": ["en donde descargo el formulario", "cual es el formulario", "que formulario debo llenar", "en donde encuentro ese formulario"],
+            "respuestas": ["Lo puede descargar dando clic aquí: http://200.233.44.196/Sistemas/TramiteExterno/subidos/Formats_145.pdf"]
+        },
+        {
+            "tag": "cerificado de contribuyente",
+            "patrones": ["requisitos para el certificado de contribuyente", "que necesito para sacar el certificado de contribuyente"],
+            "respuestas": ["1. Formulario correctamente llenado <br> 2. Copia de DNI  <br>  3. Ultimo autovalúo <br> 4. Pago de Derecho"]
+        },
+        {
+            "tag": "incio de certificado de contribuyente",
+            "patrones": ["en donde tramito el certificado de contribuyente", "a donde voy para realizar el certificado de contribuyente", "en que lugar entrego mis documentos para el certificado de contribuyente"],
+            "respuestas": ["En la Secretaría General Trámite Documentario"]
+        },
+        {
+            "tag": "pago de certificado de contribuyente",
+            "patrones": ["cuanto cuesta el derecho para el certificado de contribuyente", "de que monto es del derecho a tramite el certificado de contribuyente ", "derecho a tramite certificado de contribuyente"],
+            "respuestas": ["Cuesta S/. 14,00 ", "El derecho de tramite es de S/. 14,00"]
+        },
+        {
+            "tag": "copia certificada de autoavluo",
+            "patrones": ["copia certificada de autovaluo", "requisitos para sacar una copia certificada de autovaluo", "que necesito para sacar la copia certificadad de autovaluo"],
+            "respuestas": ["1. Formulario correctamente llenado <br> 2. Copia de DNI <br> 3. Si fuera necesario: Carta poder y DNI del representante <br> 4. Derecho de Pago"]
+        },
+        {
+            "tag": "pago copia certificada de autovaluo",
+            "patrones": ["Cuanto cuesta la copia certificada de autovaluo", "de que monto es el derecho a tramite de la copia certificada de autovaluo", "derecho a tramite copia certificada de autovaluo"],
+            "respuestas": ["Cuesta 20,30 soles", "El derecho a tramite es de S/. 20,30"]
+        },
+        {
+            "tag": "Declaracion jurada de impuesto predial",
+            "patrones": ["requisitos para la declaracion jurada de impuesto predial", "que necesito para sacar el certificado de la declaración jurada de impuesto predial compra venta"],
+            "respuestas": ["1. Formato de Declaración Jurada <br> 2. Copia fedateada de documento que acredite la transferencia <br> 3. Formato HR y PU o PR debidamente llenados y firmados <br> 4. De ser el caso: <br>    a. Persona Natural: Copia de DNI <br>     b. Persona Jurídica: Poder vigente del representante legal <br> 5. Pago de Derecho"]
+        },
+        {
+            "tag": "pago de declaración jurada de impuesto predial",
+            "patrones": ["Cuanto cuesta la declaracion jurada de impuesto predial", "de que monto es el derecho a tramite de la declaracion jurada de impuesto predial"],
+            "respuestas": ["Cuesta S/. 30.80", "El derecho a tramite a tramite es de S/. 30.80"]
+        },
+        {
+            "tag": "Inscripcion por Compra - Venta",
+            "patrones": ["requisitos para la Inscripcion por Compra - Venta", "que necesito para sacar la Inscripcion por Compra - Venta"],
+            "respuestas": ["1.Formato de declaración Jurada  <br> 2. Copia de Documento que acredite la transferencia  <br> 3. Formato Hr y PU o PR  <br> 4. de ser el caso:<br>     a. Persona Natural:Copia de DNI<br>    b. Persona Jurídica: Poder vigente del representante legal <br> 5. Formulario de alcabala <br> 6. Pago de Derecho"]
+        },
+        {
+            "tag": "pago de incripcion por compra venta",
+            "patrones": ["Cuanto cuesta la Inscripcion por Compra - Venta", "de que monto es el derecho a tramite de la Inscripcion por Compra - Venta"],
+            "respuestas": ["Cuesta S/. 30.80", "El derecho a tramite a tramite es de S/. 30.80"]
+        },
+        {
+            "tag": "Alcabala",
+            "patrones": ["formato alcabala", "en donde consigo el formato alcabala", "en donde descargo el formato alcabala"],
+            "respuestas": ["Lo puedes obtener en el siguiente link: https://munivictorlarco.gob.pe/portal/descargas/tributos/formularios/Formatoalcabala.pdf"]
+        },
+        {
+            "tag": "HR",
+            "patrones": ["formato HR", "en donde consigo el formato HR", "en donde descargo el formato HR", "HR"],
+            "respuestas": ["Lo puedes obtener en el siguiente link: https://munivictorlarco.gob.pe/portal/descargas/tributos/formularios/FormatoHR.pdf"]
+        },
+        {
+            "tag": "Descargo de Propiedad",
+            "patrones": ["requisitos para  el Descargo de Propiedad", "que necesito para sacar el Descargo de Propiedad"],
+            "respuestas": ["1. Solicitud de descargo de propiedad  <br> 2. Copia de Documento que acredite la transferencia  <br> 3. Formulario de alcabala <br> 4. Pago de Derecho"]
+        },
+        {
+            "tag": "pago de incripcion por compra venta",
+            "patrones": ["Cuanto cuesta el Descargo de Propiedad", "de que monto es el derecho a tramite del Descargo de Propiedad"],
+            "respuestas": ["Cuesta S/. 13.00", "El derecho a tramite a tramite es de S/. 13.00"]
+        },
+        {
+            "tag": "constancia de adeudos simples sin fines de transferencia",
+            "patrones": ["requisitos para  la constancia de adeudos simples sin fines de transferencia", "que necesito para sacar la constancia de adeudos simples sin fines de transferencia"],
+            "respuestas": ["1. Solicitud dirigida al Alcalde <br> 2. Copia de DNI <br> 3. Pago de Derecho"]
+        },
+        {
+            "tag": "pago de constancia de adeudos simples sin fines de transferencia",
+            "patrones": ["Cuanto cuesta la constancia de adeudos simples sin fines de transferencia", "de que monto es el derecho a tramite de la constancia de adeudos simples sin fines de transferencia"],
+            "respuestas": ["Cuesta S/. 14.00", "El derecho a tramite a tramite es de S/. 14.00"]
+        },
+        {
+            "tag": "recursos de reclamo",
+            "patrones": ["requisitos para  el recursos de reclamo", "que necesito para sacar el recursos de reclamo"],
+            "respuestas": ["1. Solicitud dirigida al Alcalde fundando el motivo de reclamo <br> 2. Copia de DNI <br> 3. Pago de Derecho"]
+        },
+        {
+            "tag": "pago de recursos de reclamoa",
+            "patrones": ["Cuanto cuesta el recursos de reclamo", "de que monto es el derecho a tramite del recursos de reclamo"],
+            "respuestas": ["Cuesta S/. 23.20", "El derecho a tramite a tramite es de S/. 23.20"]
+        },
+        {
+            "tag": "constancia de no adeudo",
+            "patrones": ["requisitos para  la constancia de no adeudo", "que necesito para sacar la constancia de no adeudo"],
+            "respuestas": ["1. Formato correctamente llenado <br> 2. Copia de documento de transferencia <br> 3. Pago de Derecho"]
+        },
+        {
+            "tag": "pago de constancia de no adeudo",
+            "patrones": ["Cuanto cuesta la constancia de no adeudo", "de que monto es el derecho a tramite de la constancia de no adeudo"],
+            "respuestas": ["Cuesta S/. 15.70", "El derecho a tramite a tramite es de S/. 15.70"]
+        },
+        {
+            "tag": "prescripción de deuda tributaria",
+            "patrones": ["requisitos para  la prescripción de deuda tributaria", "que necesito para sacar la prescripción de deuda tributaria"],
+            "respuestas": ["1. Solicitud dirigida al alcande con fundamentos de hecho <br> 2. De ser el caso <br>     a. Personas Naturales: Copia de DNI <br>     b. Personas Juridicas: Poder vigente del representate legal"]
+        },
+        {
+            "tag": "pago de prescripción de deuda tributaria",
+            "patrones": ["Cuanto cuesta la prescripción de deuda tributaria", "de que monto es el derecho a tramite de la prescripción de deuda tributaria"],
+            "respuestas": ["El tramite es gratuito"]
+        },
+        {
+            "tag": "devolucion o compensacion de deudas tributarias",
+            "patrones": ["requisitos para  la devolucion o compensacion de deudas tributarias", "que necesito para sacar la devolucion o compensacion de deudas tributarias"],
+            "respuestas": ["1. Formato correctamente llenado <br> 2. De ser el caso <br>     a. Personas Naturales: Copia de DNI y de su conyuge (si es casado) <br>     b. Personas Juridicas: Poder vigente del representate legal y su DNI <br> 3. Copia de los recibos a compenzar <br> 4. Pago de derecho"]
+        },
+        {
+            "tag": "pago de devolucion o compensacion de deudas tributarias",
+            "patrones": ["Cuanto cuesta la devolucion o compensacion de deudas tributarias", "de que monto es el derecho a tramite de la devolucion o compensacion de deudas tributarias"],
+            "respuestas": ["Cuesta S/. 30.80", "El derecho a tramite a tramite es de S/. 30.80"]
+        },
+        {
+            "tag": "Declaracion jurada por modificacion de datos del registro de contribuyentes",
+            "patrones": ["requisitos para  la Declaracion jurada por modificacion de datos del registro de contribuyentes", "que necesito para sacar la Declaracion jurada por modificacion de datos del registro de contribuyentes"],
+            "respuestas": ["1. Formato correctamente llenado <br> 2. De ser el caso <br>     a. Personas Naturales: Copia de DNI <br>     b. Personas Juridicas: Poder vigente del representate legal <br> 3. Pago de derecho"]
+        },
+        {
+            "tag": "pago de devolucion o compensacion de deudas tributarias",
+            "patrones": ["Cuanto cuesta la Declaracion jurada por modificacion de datos del registro de contribuyentes", "de que monto es el derecho a tramite de la Declaracion jurada por modificacion de datos del registro de contribuyentes"],
+            "respuestas": ["Cuesta S/. 18.60", "El derecho a tramite a tramite es de S/. 18.60"]
+        },
+        {
+            "tag": "Fraccionamiento de deudas tributarias y no tributarias",
+            "patrones": ["requisitos para  el Fraccionamiento de deudas tributarias y no tributarias", "que necesito para sacar el Fraccionamiento de deudas tributarias y no tributarias"],
+            "respuestas": ["1. Solicitud dirigida al Alcalde <br> 2. Copia de DNI <br> 3. Presentación de estado de cuenta <br> 4. Poder Simple o escritura pública <br> 5. Pago del 20% total de la deuda como cuota inicual <br> 6. Pago posterior a la perdida del fraccionamiento 50% de la deuda total <br> 7. Pago de Derecho"]
+        },
+        {
+            "tag": "pago de Fraccionamiento de deudas tributarias y no tributarias",
+            "patrones": ["Cuanto cuesta el Fraccionamiento de deudas tributarias y no tributarias", "de que monto es el derecho a tramite del Fraccionamiento de deudas tributarias y no tributarias"],
+            "respuestas": ["Cuesta S/. 24.40", "El derecho a tramite a tramite es de S/. 24.40"]
+        },
+        {
+            "tag": "Beneficio tributario para pensionistas",
+            "patrones": ["requisitos para  el Beneficio tributario para pensionistas", "que necesito para sacar el Beneficio tributario para pensionistas"],
+            "respuestas": ["1. Solicitud dirigida al Alcalde <br> 2. Formulario de solicitud de deducción <br> 3. Copia de la resolución de la ONP <br> 4. Copia de la boleta de pago <br> 5. Certificado de propiedad expedido por SUNARP <br> 6. Copia de matrimonio (si esta casado) <br> 7. Copia de DNI  <br> 8. Pago de Derecho"]
+        },
+        {
+            "tag": "pago de Beneficio tributario para pensionistas",
+            "patrones": ["Cuanto cuesta el Beneficio tributario para pensionistas", "de que monto es el derecho a tramite del Beneficio tributario para pensionistas"],
+            "respuestas": ["Cuesta S/. 26.20", "El derecho a tramite a tramite es de S/. 26.20"]
+        },
+        {
+            "tag": "tramite online",
+            "patrones": ["Puedo hacer el tramite online", "puedo hacer el tramite virtual", "puedo hacer el tramite desde mi casa"],
+            "respuestas": ["Puede hacer sus tramites entrando a: https://sistema.munivictorlarco.gob.pe/tramiteonline/ y subiendo los requisitos previamente declarados"]
+        },
+        {
+            "tag": "pagos virtual",
+            "patrones": ["Puedo hacer mis pagos de derecho a tramite virtual", "Puedo hacer mis pagos de derecho a tramite desde mi casa", "Puedo hacer mis pagos de derecho a tramite online"],
+            "respuestas": ["Puede hacer sus pagos desde la sigueinte pagina: https://sistema.munivictorlarco.gob.pe/gobren/public/auth/login"]
+        },
+        {
+            "tag": "ingreso al sistema de pago virtual",
+            "patrones": ["como ingreso al sistema de pago online", "como ingreso a la plataforma de pago virtual"],
+            "respuestas": ["Con el usuario y contraseña que se encuentra en su recibo de cobranza"]
+        },
+        {
+            "tag": "no puedo ingresar",
+            "patrones": ["no puedo ingresar al sistema de pago online", "no logro ingresar a la plataforma de pago virtual"],
+            "respuestas": ["Enviar un mensaje via Whattsapp a uno de los siguientes números: +51-44481546 , +51-44481527 y +51-44481539"]
+        }
+    ]
+}

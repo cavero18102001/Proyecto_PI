@@ -1,0 +1,31 @@
+{% extends 'chat.html' %} {% block messages %}
+<script>
+    $(document).ready(function() {
+
+        setInterval(function() {
+            $.ajax({
+                type: 'GET',
+                url: "/getMessages/{{ idConsulta}}/",
+                success: function(response) {
+                    console.log(response);
+                    $("#board").empty();
+                    var temp = ""
+                    for (var key in response.messages) {
+                        if (response.messages[key].usuario == "CIUDADANO") {
+                            var temp = '<div class="card-panel right" style="width: 50%; position: relative"> <div style = "position: absolute; top: 0; left:3px; font-weight: bolder" class = "title" > Tú: </div>' +
+                                response.messages[key].mensaje + ' </div > ';
+                        } else {
+                            var temp = '<div class="card-panel left blue lighten-5" style="width: 51%; position: relative"> <div style = "position: absolute; top: 0; left:3px; font-weight: bolder"class = "title" > Víctor: </div>' +
+                                response.messages[key].mensaje + ' </div > ';
+                        }
+                        $("#board").append(temp);
+                    }
+                },
+                r: function(response) {
+                    alert('An error occured')
+                }
+            });
+        }, 1000);
+    })
+</script>
+{% endblock %}
